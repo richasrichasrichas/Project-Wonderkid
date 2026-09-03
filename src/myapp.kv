@@ -1,0 +1,18 @@
+#:kivy 2.3.1
+
+BoxLayout:
+    orientation: 'vertical'
+    padding: 20
+    spacing: 10
+
+    Label:
+        id: meu_texto
+        text: 'Olá! Clique no botão abaixo.'
+        font_size: 24
+
+    Button:
+        text: 'Clique Aqui'
+        font_size: 20
+        # Isso é como o "Signals and Slots" do PyQt
+        # Ao soltar o clique, chama a função do Python
+        on_release: app.botao_clicado()
