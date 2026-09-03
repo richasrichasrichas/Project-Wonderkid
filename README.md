@@ -1,4 +1,4 @@
-# sports_scraper
+# Project Wonderkid
 
 Scrapes player statistics from FBref and SofaScore, optionally cleans
 noisy text fields with a Hugging Face NER model, and exports the result
